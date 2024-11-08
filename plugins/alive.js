@@ -15,7 +15,7 @@ function runtime(seconds) {
 smd(
   {
     pattern: "alive", // Command trigger
-    react: "👸", // Reaction when the command is run
+    react: "⚡", // Reaction when the command is run
     desc: "Check bot's status, speed, and latency with channel link", // Command description
     category: "misc", // Command category
     filename: __filename, // Filename reference
@@ -31,14 +31,14 @@ smd(
 
     // Final message with latency, speed, and channel link
     const finalMessage = `
-👸 *Queen Nikka is Alive!*
+🧃🌍 *thejuicebot is Alive!*
 
 *Latency:* ${latency}ms
 *Speed:* Fast as always🚀
 
 *Channel Link:* ${channelLink}
 
-*=== |🍀| Powered by HAKI |🍀| ===*
+*=== |🧃| Powered by Juice WRLD |🌍| ===*
     `;
 
     // Send the final message directly (no initial message)
@@ -51,14 +51,14 @@ smd(
 smd(
   {
     pattern: "about", // Command trigger
-    react: "👇", // Reaction when the command is run
+    react: "🧃", // Reaction when the command is run
     desc: "Shows if the bot is alive and displays important information", // Command description
     category: "misc", // Command category
     filename: __filename, // Filename reference
   },
   async (message) => {
     const owner = "HAKI"; // Owner name
-    const footer = "=== |🍀| Powered by HAKI |🍀| === ";
+    const footer = "=== |🧃| Powered by JUICE |🌍| === ";
     const repoLink = "https://github.com/hakisolos/queen_nikka"; // Repository link
     const channelLink = "https://whatsapp.com/channel/0029VaoLotu42DchJmXKBN3L"; // Channel link
     const whatsappGroupLink = "https://chat.whatsapp.com/CdF4bo9NLcSBP8ThD2tDko"; // WhatsApp Group link
@@ -66,7 +66,7 @@ smd(
 
     // Prepare the final message content
     const finalMessage = `
-👸 'Queen Nikka MD'
+🧃🌍 'juice wrld 999'
 
 *Owner:* ${owner}
 
@@ -76,11 +76,11 @@ smd(
 
 *WhatsApp Group:* ${whatsappGroupLink}
 
-*Made With Love by Haki❤️*
+*Made With Love by CYLEE*
 
 *Bot Uptime:* ${uptime}
 
-*LONG LIVE THE QUEEN 👸*
+*LONG LIVE THE KING 🧃🌍*
 
  ${footer}
 
@@ -107,11 +107,11 @@ smd({
     
     const hobby = "*coding*";
     
-    const contact = "*https://wa.me/9112171078*";
+    const contact = "*https://wa.me/27615045572*";
     
-    const name = "*Haki 🗿*";
+    const name = "*CYLEE ❤️🧸*";
     
-    const footer = "*=== |🍀| Powered by HAKI |🍀| ===*";
+    const footer = "*=== |🧃| Powered by CYLEE |🌍| ===*";
 
     const messages = `
       name: ${name}
